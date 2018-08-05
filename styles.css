@@ -1,0 +1,252 @@
+/* ----- Base styles ----- */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.7em;
+    color: #fff;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+
+.container {
+    width: 60%;
+    margin: 0 auto;
+    }
+
+.orange-btn {
+    background-color: rgb(240, 146, 51);
+}
+
+.red-btn {
+ background-color: rgb(203, 56, 55);
+}
+
+.blue-btn {
+    background-color: rgb(49, 68, 88);
+}
+
+.btn {
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 50px;
+    padding: 6px 26px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ----- Navigation styles ----- */
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    /* padding-top: 15px; */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.top-left {
+    margin-right: auto;
+    margin-left: 20px;
+}
+
+/* ----- Header styles ----- */
+#header {
+    background-color: rgb(32, 101, 136);
+    color: #fff;
+    padding-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.search-bar .npm-img {
+    max-width: 110px;
+    margin-right: 10px;  
+}
+
+#header .search-bar input {
+    width: 100%;
+    height: 95%;
+    background-color: rgb(31, 82, 111);
+    color: #fff;
+    border: none;
+    margin-left: 10px;
+    font-size: 17px;
+    border: 1px solid rgba(52, 152, 219, .8);
+    text-indent: 10px;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+::placeholder {
+    color: rgb(32, 101, 136);
+    font-size: 17px;
+}
+
+#header .search-bar i {
+    width: 65px;
+    height: 100%;
+    background-color: rgb(31, 82, 111);
+    border:  1px solid rgba(52, 152, 219, .8);
+    border-left: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar p {
+    min-width: 140px;
+    text-align: center;
+
+}
+
+.search-bar p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.search-bar .bear-img {
+    width: 45px;
+}
+
+.second-header-part {
+    margin: 0 auto;
+    width: 100%;
+    background: url(images/city-scape.svg) no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    overflow: hidden;
+}
+
+.left-side-header {
+    width: 50%;
+    margin-top: 100px;
+}
+
+.header-image {
+    float: right;
+    width: 100%;
+    height: 500px;
+}
+
+/* ----- First section styles ----- */
+#first-section {
+    background-color: rgb(39, 53, 71);
+    color: #fff;
+    padding: 100px 0;
+}
+
+.first-section-right {
+    float: right;
+    width: 44%;
+}
+
+.first-section-right ul {
+    padding: 0;
+}
+
+.first-section-right ul li {
+    line-height: 2.5em;
+}
+
+#first-section img {
+    width: 50%;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* ----- Second section styles ----- */
+
+#second-section {
+    background: url(images/forklift.svg) no-repeat center center;
+    height: 600px;
+    overflow: hidden;
+}
+
+.second-section-content {
+    position: relative;
+    top: 100px;
+    left: 400px;
+    width: 25%;
+}
+
+/* ----- Third section styles ----- */
+#third-section {
+    padding: 50px 0;
+}
+
+.third-section-text h2 {
+    color: rgb(83, 88, 98);
+    font-size: 2em;
+    text-align: center;
+}
+
+.third-section-text p {
+    color: rgb(135, 145, 156);
+    text-align: center;
+}
+
+.third-section-logos {
+    display: flex;
+}
+
+.third-section-logos div {
+    color: rgb(135, 145, 156);
+    text-align: center;
+    margin: 40px 20px 0;
+}
+
+.third-section-logos div h3 {
+    color: rgb(83, 88, 98);
+}
+
+.third-section-logos div p a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
